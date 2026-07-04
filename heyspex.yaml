@@ -1,0 +1,4 @@
+# HeySpex vault marker — this repository is a HeySpex spec vault.
+# The HeySpex console and CLI read this file to locate your specs.
+schema_version: 1
+vault_root: specs
