@@ -1,11 +1,9 @@
-# HeySpex vault
+# My HeySpex Vault
 
-This is your private **HeySpex spec vault** — the system of record for your plans and specs.
+This repository is your **vault** — the single source of truth for your work in HeySpex.
 
-- Your specs live as plain markdown under `specs/`.
-- The HeySpex console is the canonical UI; this repository holds the files, tracked in git.
-- HeySpex reads and writes here through the **HeySpex GitHub App**, which you install on this repository. It only touches the repositories you grant it — nothing else.
+- Everything you capture, plan, and track lives here as plain Markdown under `specs/`.
+- HeySpex reads and writes this repo for you through the HeySpex GitHub App — you normally never edit these files by hand.
+- The repo is yours: clone it, read it on GitHub, or point other tools at it any time.
 
----
-
-_Created from the [`vault-template`](https://github.com/pwhermanson/vault-template) template._
+Nothing to set up here — head back to HeySpex and start capturing.
