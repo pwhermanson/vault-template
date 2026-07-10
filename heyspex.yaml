@@ -1,4 +1,5 @@
-# HeySpex vault marker — this repository is a HeySpex spec vault.
-# The HeySpex console and CLI read this file to locate your specs.
-schema_version: 1
-vault_root: specs
+schema_version: 2
+vault_root: specs/
+# vault_id is intentionally omitted from the template.
+# A unique vault_id is minted at registration time (init.ts mintVaultId());
+# do NOT hardcode a vault_id here — never the platform UUID.
